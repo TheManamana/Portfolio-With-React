@@ -12,7 +12,7 @@ This is a portfolio webpage I am working on to show to potential employers.
 
 ## Installation
 
-There is no installation need as it is running on github pages at: 
+There is no installation need as it is running on github pages at: https://github.com/TheManamana/Portfolio-With-React
 
 
 ## Credits
