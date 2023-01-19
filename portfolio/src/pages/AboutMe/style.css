@@ -1,0 +1,209 @@
+
+
+:root {
+    --primary: rgba(68, 88, 119, 1);
+    
+    
+  }
+/* Beginning of header styling */
+.header nav{
+    display: flex;
+    
+        
+        margin: 20px;
+        float: right;
+        font-family: 'Garamond Sans';
+        font-size: 20px;
+    
+
+}
+
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header {
+    
+    background-color: rgb(25, 25, 31);
+    color: rgb(185,126,64);
+    /* border-top-left-radius: 15%; */
+    /* border-top-right-radius: 15%; */
+    
+
+}
+
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.section {
+    
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 20px;
+    
+
+    
+}
+
+.leftBody{
+    display:flex;
+    border-right: 5px solid black;
+    
+    /* max-width: 250px; */
+    padding:10px;
+    flex-direction: row;
+    justify-content: left;
+    height: 1;
+    /* flex: 0 0 20%; */
+
+}
+.rightBody {
+    
+  
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    justify-content: center;
+
+    max-width: 1250px;
+    
+    
+    
+  }
+ 
+.workBox{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid  rgb(113, 162, 235);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    
+    min-height: 150px;
+    /* max-height: 150px;  */
+
+    
+    max-width: 1200px;
+    align-items: flex-end;
+
+    margin:20px;
+    flex-grow: 1;
+    
+    
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+
+    height:auto;
+    width: 1;
+    
+    
+    
+    
+}
+.contactBox{
+    padding:20px;
+    
+}
+
+a{
+    color: rgb(184, 203, 219);
+
+}
+
+.header h1 {
+    font-family: 'Garamond';
+    display: inline-block;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+
+
+.allenPic {
+    max-width: 300px;  
+     height: auto;
+    margin-left: 20px;
+  
+
+}
+
+
+
+
+#aboutMe{
+    display: flex;
+    flex-direction: row;
+    
+  
+   
+    
+}
+
+#about{
+    max-width: 700px;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+
+
+.workBox:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+
+h2 {
+    font-size:  36px;
+    margin-left: 25px;
+    font-family: 'Garamond';
+    
+    
+    
+}
+h3{
+    background-color: rgb(113, 162, 235);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Garamond';
+    font-size:  30px;
+}
+
+.portfolio{
+    background-image: url("../../assets/Portfolio.jpg");
+    
+    width: 500px;
+    background-position: 25% 70%;
+}
+.passgen{
+    background-image: url("../../assets/Password.jpg");
+    width: 500px;
+}
+.quiz {
+    background-image: url("../../assets/Quiz.jpg");
+    width: 500px;
+    background-position: 25% 50%;
+}
+.camp{
+    background-image: url("../../assets/ConnectPhoto.png");
+    width: 800px;
+    height: 500px;
+    background-position: 40% 50%;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+.stock{
+    background-image: url("../../assets/Stockpicker.jpg");
+    width: 500px;
+}
