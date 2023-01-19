@@ -13,9 +13,9 @@ export default function Navigate() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">About Me</Nav.Link>
-            <Nav.Link href="/Portfolio">Porfolio</Nav.Link>
+            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/Contact">Contact Me</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -25,7 +25,7 @@ export default function Navigate() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

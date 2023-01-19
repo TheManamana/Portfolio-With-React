@@ -1,4 +1,22 @@
 export default function ContactMe() {
-    return (<h1>Test3</h1>
-    );
-  }
+  return (<section id="Contact-Me" class="section">
+
+
+
+    <div class="leftBody">
+      <h2>Contact Me</h2>
+    </div>
+
+    <div class="rightBody">
+
+      <div class="contactBox">
+        <a href="mailto:allentrobson@gmail.com">
+          AllenTRobson@gmail.com
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+  );
+}
